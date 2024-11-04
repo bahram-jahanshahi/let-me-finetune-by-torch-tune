@@ -68,6 +68,10 @@ lora_rank: 8 # 64
 tune run lora_finetune_single_device --config custom_config.yaml epochs=1
 ```
   
+## How to upload the huge LLM files to a server via SSH
+```shell
+scp -i /<HOME_DIR>/.ssh/id_sha -P <PORT_NUMBER> <MODEL_FILE_PATH> <USERNAME>@<SERVER_IP>:/workspace
+```
 
 
 
