@@ -22,7 +22,7 @@ Visit this page https://pytorch.org/torchtune/stable/tutorials/first_finetune_tu
 
 ### Downloading a model
 ```shell
-download meta-llama/Llama-3.2-3B-Instruct --output-dir tmp/Llama-3.2-3B-Instruct --hf-token hf_...
+tune download meta-llama/Llama-3.2-3B-Instruct --output-dir tmp/Llama-3.2-3B-Instruct --hf-token hf_...
 ```
 The model will be downloaded in `tmp`folder.  
 At this moment this does not download 
