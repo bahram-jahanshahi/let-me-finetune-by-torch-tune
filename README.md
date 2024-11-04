@@ -73,6 +73,10 @@ tune run lora_finetune_single_device --config custom_config.yaml epochs=1
 scp -i /<HOME_DIR>/.ssh/id_sha -P <PORT_NUMBER> <MODEL_FILE_PATH> <USERNAME>@<SERVER_IP>:/workspace
 ```
 
+## Datasets
+https://huggingface.co/datasets/yahma/alpaca-cleaned/tree/main
+
+
 
 
 
