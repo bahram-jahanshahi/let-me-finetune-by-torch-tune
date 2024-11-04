@@ -9,6 +9,7 @@ https://github.com/pytorch/torchtune
 Visit this page https://pytorch.org/torchtune/stable/install.html 
 ```shell
 pip install torch torchvision torchao
+pip install torchtune
 ```
 ### Installation confirm
 Run this command
