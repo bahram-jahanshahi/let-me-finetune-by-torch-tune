@@ -67,14 +67,21 @@ lora_rank: 8 # 64
 ```shell
 tune run lora_finetune_single_device --config custom_config.yaml epochs=1
 ```
-  
+or 
+```shell
+tune run lora_finetune_single_device --config custom_dataset_config.yaml epochs=1
+```  
 ## How to upload the huge LLM files to a server via SSH
 ```shell
 scp -i /<HOME_DIR>/.ssh/id_sha -P <PORT_NUMBER> <MODEL_FILE_PATH> <USERNAME>@<SERVER_IP>:/workspace
 ```
 
 ## Datasets
-https://huggingface.co/datasets/yahma/alpaca-cleaned/tree/main
+Download `alpaca_data_cleaned.json` file here on huggingface
+https://huggingface.co/datasets/yahma/alpaca-cleaned/tree/main  
+It's a big file with 50_000 records. for testing the finetune process it's needed to reduce it. I deleted 80% of the prompts. 
+
+
 
 
 
